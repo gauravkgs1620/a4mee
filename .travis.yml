@@ -2,6 +2,16 @@ sudo: required
 
 language: java
 
+env:
+  global:
+  - secure: Zw7ppJ1XzJhfR/JEVecGNfD8MHtcBy8HDZOWAyxTtwOlEqow2GhyvarqrR2VDsi7Zc/CZXVRGGAO8+haxknwhpfYZPyquNzngVJ6HuDqMu8c0T1FUTzkVSQXOoLZOo6Fob8FTZZC1S6tCQlxa7UVd5IDVr7YT99rcfd3c6GhTKKKgokpZ6GxSGr9GpFDqh1m72on7/eMPmb8MM6dVZfS3hUWlSaJ3BHoeeZ9t28cMu5dWLPn88B8e3QFLLv0FjWARFiP37Mm46QxttXvvOm1sRxKbstCAtri91Agrps798UAyNiWN5gp6B2sPHmq2t3yNmsIGwELD592Bg7It+IBygAQp3plMDdgSMf+e9nVKcXN5al8Aiz/Bq53MA4LLd7pRyMz+mIwLu6tRamesrcYbpy4AnFEmfry8qlHLqF3dLMny+VVYUVrZb1A+SsuQPax7/cO1ubxMIQzwNYI7DYoJWAnzshPwqPXPI7PTjEgpmHj3dG/mO9aCUizV+nzRmKyySWsRNOP2M26LevOQM6Kq9BXqpaQfvQQC2llUg8df30ReTrBL8hAxSKzMeEuc0+QQzG6mhbkpnCim7X2dZ7HrRT8CQOfyNQwdECVSHt9k/Iqoje3+4YSgRyUml9ExJIrkGs6AKXK51emiZ+AZXgJwItQLuK5/vr8fEMI/eT8WRo=
+
+addons:
+  sonarcloud:
+    organization: ""
+    token:
+      secure: $SONAR_TOKEN
+
 jdk:
   - openjdk11
   
@@ -11,3 +21,4 @@ services:
 script: 
   - cd a4mee-api 
   - mvn clean install
+  - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent package sonar:sonar
