@@ -2,7 +2,8 @@ language: java
 
 jdk:
   - openjdk11
-  
+sudo: required
 script: 
   - cd a4mee-api 
   - mvn clean install
+  - docker
