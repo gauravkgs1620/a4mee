@@ -2,3 +2,7 @@ language: java
 
 jdk:
   - openjdk11
+  
+script: 
+  - cd a4mee-api 
+  - mvn clean install
