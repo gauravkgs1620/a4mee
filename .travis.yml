@@ -8,7 +8,7 @@ env:
 
 addons:
   sonarcloud:
-    organization: ""
+    organization: "gauravkgs1620-org"
     token:
       secure: $SONAR_TOKEN
 
