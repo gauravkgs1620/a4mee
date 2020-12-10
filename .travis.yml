@@ -4,11 +4,11 @@ language: java
 
 env:
   global:
-  - secure: "mf3lM/d4DcVPiYTFQNTtiwuWzjGC0PduvFQoNB8Es72GXcS9lpQa0KnZxv148aFGlI9RqO/s1MN8Nuz1+BlzIVA5KtAKGXqnzei9coGYm2cZRDgbfn2On+31k8zCs+yhd9RtxQQQLyK5BEiBXDoc+JQlBtzZaOu6MkA5NH1wO923y9v+RaQAGV+uC/wJRknJK789G4L+U4S7pOacG8Hm5m99nH1x3+2caIIyX/CXYxM4qBjQYICK2EGLLgHKjACDKBmrV4nfdZ0+ChAIh5ccDAOrVZMD90Tp4awNX/eL58UTFJX0fM8QkNKI3uX05Va7t2QI8d5glRu5hjMk8KJu5sw4QGal2vpmeYYt49sXkjWbPxLlNReMkwQZpCWjcy/ZAFe4+CnCN+Ip/wpRBvjszq2zEOlqEW4UMREcmutULljDF/ROnWwn96Na4Re/wR2RU3XPbfnBgDREjcUj60kgKjY7yq6Z9zKdD6yK4ohv2StDA5eap1zjEE7ZRXiIEzlWig70BC+itBErQTzni0jhpYXLta8c3KKhovO87liLdguKn3dpMnqTLixj8gCJKKXIvYPkhtssEe9cIdLG96isdhKer1n4iI0Bc6u9z9KSBlvNuJO38VXcjtZRX6natWAXOjh3CI0DUfljllXW3up0IKN0ZTTwzTXTczKEO3x2o2w="
+  - secure: "tntEcXZM/gWbBmfqH+FWtNKANlxYRuIBsqtDQPgC9RJ4ezjyHj93/uJ2M70CQbz+I4aXC8S59eYkFMxjNm+UH3VNE11lqeHr5FCwFQU3WvPOXPFjsFqrWAmmiTfnapsQmnSiccm3/pNM6rSTpeoHWTxQxJ8AQEAg6y7Mz6R+1f/zF66xlqNmL2TRRD/gz9fu0FF4HRV/1igb0UhL11fZgsmvU8n6hlKr22mEyCH+QYLsw8s1Pyau29isZSyqP/QCcJTNFFFBmhhv97TZB8qYjvtiHzmZy2IEofOHb06EMnFFqOdHnSCh/xjrN/h9A79+BwHKIkdFto0hXwB0JcJfFqyccTuwsaseBBAM9pTscWT5EhLuIWKlRDMQwLoyygkjLFiEKYaIRgCEguhCIiQhVQMsd1NGXYIrj8n1CKNe5m3fwbRZPc32mc1FxUafZoIYJ2IqdjwZ5NX8lBBaizeJhZyzZ++iav6uChRJqPBYbuEwfM5+kGiNBbSElKZ7JZNRVirIykDEqUI9zwistL+bFRm3/ejbht/+jr1LjPHHA7P5uGYI/SwyiQma4E2FV87SZ17mTR3szbMQrFhZ4LNzgmyYveZ4rJrMI0uwr6KHmvU/I/B9cgq31zrXX52I/r4Cvm3L3ZVEDc3PGiakCKlwNqzV2JtHzsOAFyJDBkloMhQ="
 
 addons:
   sonarcloud:
-    organization: "gauravkgs1620-org"
+    organization: "gauravkgs1620"
     token:
       secure: $SONAR_TOKEN
 
@@ -19,6 +19,5 @@ services:
   - docker
 
 script: 
-  - cd a4mee-api 
-  - mvn clean install
-  - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent package sonar:sonar
+  - cd a4mee-api
+  - mvn clean install org.jacoco:jacoco-maven-plugin:prepare-agent package sonar:sonar
