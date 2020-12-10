@@ -2,15 +2,11 @@ sudo: required
 
 language: java
 
-env:
-  global:
-  - secure: "tntEcXZM/gWbBmfqH+FWtNKANlxYRuIBsqtDQPgC9RJ4ezjyHj93/uJ2M70CQbz+I4aXC8S59eYkFMxjNm+UH3VNE11lqeHr5FCwFQU3WvPOXPFjsFqrWAmmiTfnapsQmnSiccm3/pNM6rSTpeoHWTxQxJ8AQEAg6y7Mz6R+1f/zF66xlqNmL2TRRD/gz9fu0FF4HRV/1igb0UhL11fZgsmvU8n6hlKr22mEyCH+QYLsw8s1Pyau29isZSyqP/QCcJTNFFFBmhhv97TZB8qYjvtiHzmZy2IEofOHb06EMnFFqOdHnSCh/xjrN/h9A79+BwHKIkdFto0hXwB0JcJfFqyccTuwsaseBBAM9pTscWT5EhLuIWKlRDMQwLoyygkjLFiEKYaIRgCEguhCIiQhVQMsd1NGXYIrj8n1CKNe5m3fwbRZPc32mc1FxUafZoIYJ2IqdjwZ5NX8lBBaizeJhZyzZ++iav6uChRJqPBYbuEwfM5+kGiNBbSElKZ7JZNRVirIykDEqUI9zwistL+bFRm3/ejbht/+jr1LjPHHA7P5uGYI/SwyiQma4E2FV87SZ17mTR3szbMQrFhZ4LNzgmyYveZ4rJrMI0uwr6KHmvU/I/B9cgq31zrXX52I/r4Cvm3L3ZVEDc3PGiakCKlwNqzV2JtHzsOAFyJDBkloMhQ="
-
 addons:
   sonarcloud:
     organization: "gauravkgs1620"
     token:
-      secure: $SONAR_TOKEN
+      secure: "V47Y1pJQbe5JArtdgmqxycW9ZgiVI76EjkpoFDZg08/4EckmUGi8/M4xECUzmcsZVWrJLITi7ui7p3dVfI4wKjK29/NME+GwKWlrRCYFuNSoCNsorFGHBwEwCS6lqc0IFDGRHj6ndWxnoQku76LI4rDBlj/J8OnYyv9U6P8fSgP0A/6uQYMXjqULPPZ6mp0aKzZJqdapGuZeFMBqCJScPFGPg/VTyyDDD/tieUNRVgDEmz8gKElq62NbBtsRTejXWl1K+7yhGRdNzjgObrAsH4YL3cPLFay7nCFTOwwdXn9+D+QzwuXu9wWOga4m2300yVDNJri7rd7uTruBdny8bX1NZaNrnsV7kwI2BsC5Ldr8q9ClrweH8r0wivKEBsq6XxFp0ciZAQdhkYo91KS86G4SM5uMc0clI6OZbGZlW6Di1uf5rJajTLOsrblnKgLMDaS1tQ9Im6s+njhCZa2j9w8xWrPIxN/XqpcL5Rwf6FQr6xZeLSIjHmQHI2b6L6gNe6tsVel02w/KDgCBcLfAhvptNKvCea1ZEB7+9VA2l5pxq18blYEPfDX7ZHzfEWuKzOiL6aFczcZfCbuUeJ+pDzh4XQC6xLF2pqZI3aHntphQ9eV0yHX21rj8RMb+75P1R2b/5CBFgln2lH7jjRxUWHwVI8GHIet+TEvx2XuZanM="
 
 jdk:
   - openjdk11
@@ -20,4 +16,4 @@ services:
 
 script: 
   - cd a4mee-api
-  - mvn clean install org.jacoco:jacoco-maven-plugin:prepare-agent package sonar:sonar
+  - mvn clean install org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar -Dsonar.projectKey=gauravkgs1620_a4mee
