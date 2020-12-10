@@ -1,2 +1,2 @@
 #!/bin/sh
-exec java -jar /app.jar
+exec java -jar /opt/app/app.jar
