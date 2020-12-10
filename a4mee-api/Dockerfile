@@ -1,5 +1,5 @@
-FROM openjdk:11-jdk-alpine
-VOLUME /tmp
+FROM adoptopenjdk:11-jre-openj9
+RUN mkdir /opt/app
+COPY target/*.jar /opt/app/app.jar
 COPY run.sh .
-COPY target/*.jar app.jar
 ENTRYPOINT ["run.sh"]
