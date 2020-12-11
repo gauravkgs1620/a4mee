@@ -32,7 +32,7 @@ after_success:
 - export IMAGE_NAME=gauravkgs1620/a4mee
 - docker build -t $IMAGE_NAME:$COMMIT .
 - docker tag $IMAGE_NAME:$COMMIT $IMAGE_NAME:$TAG
-- docker push $IMAGE_NAME:$TAG
+- docker push $IMAGE_NAME
 
 # Allow Travis to help deploy the app on Heroku
 deploy:
