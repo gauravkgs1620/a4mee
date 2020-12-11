@@ -25,9 +25,9 @@ script:
   - mvn clean install org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar -Dsonar.projectKey=gauravkgs1620_a4mee
   
 after_success:
-- echo "$DOCKER_PASSWORD" | sudo docker login --username "$DOCKER_USERNAME" --password-stdin
+- echo "$DOCKER_PASSWORD" | docker login --username "$DOCKER_USERNAME" --password-stdin
 - export TAG=`if [ "$TRAVIS_BRANCH" == "master" ]; then echo "latest"; else echo $TRAVIS_BRANCH; fi`
 - export IMAGE_NAME=gauravkgs1620/a4mee
-- sudo docker build -t $IMAGE_NAME:$COMMIT .
-- sudo docker tag $IMAGE_NAME:$COMMIT $IMAGE_NAME:$TAG
-- sudo docker push $IMAGE_NAME:$TAG
+- docker build -t $IMAGE_NAME:$COMMIT .
+- docker tag $IMAGE_NAME:$COMMIT $IMAGE_NAME:$TAG
+- docker push $IMAGE_NAME:$TAG
