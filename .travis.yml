@@ -7,6 +7,7 @@ env:
   - secure: "hhXri7im/Z3QrnzbSIMpCX8NS1O18roFtTC0O2o8Mab4CNsGT7l4DM2bcBaY0vVZR0VDGQBEnSpXjW92YZ3GqUlSatdaj+A3TB1Vbo4tOcFiZRwuzODxZg5Ho4avLR1GfdKOp7QWcsnuUUYSJoWe/UyfGVzZ3cCVR9EUBb6vK75LHaAv0vaMm3xDuH823trAdu5tVuA3vT8u4IMExSyims1MIDjuxu1KGITyMUypXOmX2Eoht/3/aIRjps8i3XHibKYa5/jsGTExlZrA8+VezHBMUrEg8gefq6lJtMKfGqYiJM6gx2ff7XArn8BnRwE3/Kz8SUEdp4N5LfsJFyREytK0VXX7mA2eMb/1eGNBbI+KYKS6kbwaicGxbZcB0G4pvLY2rPFJav7Mcq7NulpQVrTbdOfxSBQK8ygYJakrHqUzOo9JvXhBbdipANyCOErUq08eCOXNlNveXbrY8ZhwoLi4n2oV/RvgsO/NjYM8UPWJjGYzmqe8OfZ4kViaEwXEs5yTxHwivgSXsyqPTdenNcsJqf3zdRfCjqnZkofouEToB72shU6WFUH6YLJma8MV+vhRzQGx9P8LqXToT/wcTa7la5EuoRo03oy7Uc6nriZYkWqNzAQVjTyk0t4Xd3TeVHc7Um2Zf4SAkZFdxD1bTbOeg3phk2KtrR/BeW8/ZH4="
   - secure: "sGGZZNv5CBOg0lL7UxI3/BrnucYiptVmwkYbzws9Fwb5am/HtS31gt4P5ktoQWxyuloGTHwg3NoRD5VJE0tyQt/TAJD76ZL0ZVF28HS/YpjKaOKsSUZDSvB8UceS7qkjx7rtdipf7ZWK46TA9dZE0qSJNmV952IiaRuTzga7h4ecgrUBwCHHmkJvOhhOXJqp+1ZmEuCujOjrw9YKXUmPLHIRtkkRUaiT3OgKGzn8hkZDWNn0GxM51oNXoA9UpGRjtO+tE2XRCjAenKSjbdcuZ9OmcA987qKErYuDbHY+pqh9IICh0vAQGtwjElfnLFnWEueUMXiIKSaAhDNvcVBqPIsMhpcFtbD7iK7zHVbQknY5W0kGEZ0xz5r5IWrGvh/xTdjGw2u5rxfcOlIFs4Arwg7yflVySdfGq7cH6QS0CmK0tnEWszR2GNuoBPxclQdJfaH3mQLNWuS2Q9Sz4KmG5cOjazz/yEJCMn57hN1VfqPJ52bV+Q1Nuj2pHEFWTyVZalB2u6J8qskz8U1EgWa3XeZxU8hWVvam84fF26JkWUJcMBfRnzrcg3ElX9HDdEitsHrZFKejA0lbydOt9ejJp5uEFfEydcRlFHKvDTzdGEoMuxhLIf/ptPoBdAExoDh4D4QfU2zuIv/1HuYvuCPgBJxsLkW5qwBIEsUrAB0oTB4="
   - secure: "mOmRq3KwOSd69T+CbR9k/8i9Je/e123TYuQoO7xyNYdXXw/NI2bskQdZbXYeo6iLGYVo7hmxvNTf0LguP/yh1RyDK0s09QC5hYhRGK3oScPQogTL3M18S4OGmoL4MOjxvFYJ9q1b3aazQFVXci4LrI3JQuNw1ak7Fu38nyvcNnCcnxgXa2RnqrN9hAgtJ8h8Cs8e1IWpdncnqpLO4yWHzL19dOP3TOYja1l4b7cOqTYAyiJnaB94VrNpmVH1sofpRC8ew32plAqXNcbsfR2WtV0El4GWEMZrftLLAFkQVOwqKhUGQlRgbq4WlbjVen58eqzhcziXA/enO3inWRi65M5EJn0D6Qf12fTmxvZSr9hQS2K/ddZEzC+3Hn/tDz/WM6asNZKBzt3ymKmsKNvLX30m5qzUw72as7Z+LBol0h0aDGFoas78nlsdFUB74Hy3fhyuLt4EerWJV5aq+m6m0ug2iGkNe0S8Cemri0T/DuFkTV/MQU5MSDm30RODmK0Sa73lSvQfShzIefl3e33xPZsuYGH/ArkzUMNrfRuYOSaoLwPVCFzhtlB3hzRT5U1qYVpUWxo9HQjh0v24qbapHBuM/60AoKgvEBfYldCN3kq5x6Y+yAZjtHpJac3l7ukCQxzlj3pCwBnnYCvVK9vrRd1zSud/UX6D4vrT3uoftDk="
+  - secure: "oBk225FedTOajqEe4Uth+xtkiB5Yw+GxzrNoDpsCWksGG+hg17TFfU/mcFr2jcQx2qCw0HQHEFvwpBOicCfai3pTFc1P2Yjn7LZVP1hkdZNEtZ8Z3oC39luvJW9v+Zpfst7DNT5fJkva0VGnup4cBHDzEUNTc1HW1UCryBKpTdgV1MV/da88ctYK/YYkqrhtULu2bxHo8WEgWnQUMlOUxELzEDSw6apGMMRUhol28aS/5hSTv+59nn5jApTXm76KX9MuJ7rHRT0lUDuum7+T3l2ZgUSVFffUmnM8jqTDN7lYD+8h+KHkEQwS+jNxdS6x6NXURxCLmeNQZFgACb+Y4itHYF4jkfcpJEsv6MbjbJ5Q/iCNMOaRdaK4q0lVD+4oksSH5q/zn33J9fUG2MRzh6UF4lfKPYewZBFW1RbOGjBk86ooCFJ/KjeRA0VVmb70byyvu48GwihTdRrtiD9Z6VYfbuujncfR/e3xIyslvv9q+lrlV+f7LnCd9yMRWhyGdn0lCtJcUQrQdxccqD8ue/DZYHgoB+uJz9vX+xHNRYaY4ng67O89CgiLb9Ga2u6UshOtmIgXy2rXevFKtdofzh5LClRbAO+nzLYahQnkO1HTnR9QsrZQMzq0XpD/wAFpY7bAUJ5W0Ojo+GCb0ESqK4tNO4aMtNIEIglGiZR4PMw="
   - COMMIT=${TRAVIS_COMMIT::7}
 
 addons:
@@ -26,13 +27,15 @@ script:
   - mvn clean install org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar -Dsonar.projectKey=gauravkgs1620_a4mee
   
 after_success:
+- wget -qO- https://toolbelt.heroku.com/install.sh | sh #installed heroku CLI
 - echo "$DOCKER_PASSWORD" | docker login --username "$DOCKER_USERNAME" --password-stdin
 - echo "$DOCKER_USERNAME"
 - export TAG=`if [ "$TRAVIS_BRANCH" == "master" ]; then echo "latest"; else echo $TRAVIS_BRANCH; fi`
 - export IMAGE_NAME=gauravkgs1620/a4mee
 - docker build -t $IMAGE_NAME:$COMMIT .
 - docker tag $IMAGE_NAME:$COMMIT $IMAGE_NAME:$TAG
-- docker push $IMAGE_NAME
+- docker push $IMAGE_NAME:$TAG
+- echo "$HEROKU_API_KEY" | docker login --username "$HEROKU_USERNAME" registry.heroku.com --password-stdin
 
 # Allow Travis to help deploy the app on Heroku
 deploy:
