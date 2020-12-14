@@ -39,6 +39,7 @@ after_success:
 
 # Allow Travis to help deploy the app on Heroku
 deploy:
+  skip_cleanup: true
   provider: script
   script: 
     heroku container:release web --app a4mee
