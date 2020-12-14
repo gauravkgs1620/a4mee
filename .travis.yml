@@ -39,10 +39,6 @@ after_success:
 
 # Allow Travis to help deploy the app on Heroku
 deploy:
-  provider: heroku
-  api-key:
-    secure: "$HEROKU_API_KEY"
-  app: a4mee
-  on:
-    branch: master
-    repo: "$IMAGE_NAME"
+  provider: script
+  script: 
+    heroku container:release web --app a4mee
