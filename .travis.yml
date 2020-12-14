@@ -36,6 +36,8 @@ after_success:
 - docker tag $IMAGE_NAME:$COMMIT $IMAGE_NAME:$TAG
 - docker push $IMAGE_NAME:$TAG
 - echo "$HEROKU_API_KEY" | docker login --username "$HEROKU_USERNAME" registry.heroku.com --password-stdin
+- docker tag $IMAGE_NAME:$COMMIT registry.heroku.com/$HEROKU_APP/web
+- docker push registry.heroku.com/$HEROKU_APP/web
 
 # Allow Travis to help deploy the app on Heroku
 deploy:
