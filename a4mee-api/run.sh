@@ -1,2 +1,2 @@
 #!/bin/sh
-exec java -jar /opt/app/app.jar
+exec java -jar -Dserver.port=$PORT /opt/app/app.jar
